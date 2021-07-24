@@ -22,10 +22,18 @@ function Home() {
     const[selectedBranch,setSelect]=useState('');
     const [userId,setUserId] = useContext(GlobalContext);
     useEffect(async()=>{//Will be called as soon as the page renders.
-      if(localStorage.getItem('branch')===''||localStorage.getItem('branch')==null||localStorage.getItem('branch')==undefined||localStorage.getItem('branch')===undefined||localStorage.getItem('branch')===null||localStorage.setItem('branch','ALL')=='')
-      {
-        localStorage.setItem('branch','ALL')
-      }
+      // if(localStorage.getItem('branch')===''||localStorage.getItem('branch')==null||localStorage.getItem('branch')==undefined||localStorage.getItem('branch')===undefined||localStorage.getItem('branch')===null||localStorage.setItem('branch','ALL')=='')
+      // {
+      //   localStorage.setItem('branch','ALL')
+      // }
+        if(localStorage.getItem('branch'))
+        {
+          
+        }
+        else{
+          localStorage.setItem('branch','ALL')
+        }
+
       
         let user_id = localStorage.getItem('userId');
 

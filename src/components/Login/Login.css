@@ -1,0 +1,155 @@
+/*body{
+    height: 100%;
+    width: 100%;
+}
+.Main-Container{
+    vertical-align: middle;
+    
+}
+*/
+
+.Main-Container h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Main-Container hr{
+    width: 50%;
+    margin-bottom: 20px;
+    margin: auto;
+}
+/*
+.row{
+    width: 60%;
+    margin: auto;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;    
+}
+*/
+.Main-Container .cntr{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;   
+}
+.Main-Container input{
+    border-radius: 5px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width:0 ;
+    border-color:teal;
+    border-bottom-width: 2px;
+    width: 100%;
+    height: 35px;
+}
+
+.Main-Container input:focus {
+    border-radius: 5px;
+    border-top-width: 0!important;
+    border-left-width: 0;
+    border-right-width:0 ;
+    border-color: orange;
+    outline: none;
+}
+.Main-Container span{
+    color:black;
+    font-size: 0.9em;
+}
+.Main-Container span:hover{
+cursor: pointer;
+color: orange;
+}
+.Main-Container button{
+    border-radius: 5px!important;
+    border-width: 0;
+    height: 35px!important;
+    width: 100%!important;
+}
+.Main-Container #login{
+color:white;
+background-color: black;
+}
+.Main-Container #signup{
+color: white;
+background-color:teal;
+}
+.Main-Container #login:focus{
+    background-color: orange;
+}
+.Main-Container #signup:focus{
+    background-color: orange;
+}
+.Main-Container a{
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px){
+    .Main-Container #logo{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        display: none;
+    }
+
+    .Main-Container{
+        width: 900px;
+        border-radius: 10px;
+        border-top: black;
+        margin: auto;
+        height: 550px;
+        justify-content: center;
+        flex-direction: column;    
+        box-shadow: 0 0 10px 1px rgb(0,0,0,0.5);
+        margin-top: 5%;
+    }
+    .Main-Container .row-form{
+        float: left;
+        width: 50%;
+        background-color: white;
+        height: 550px;
+        border-top-left-radius:5px;
+        border-bottom-left-radius:5px;
+    }
+    .Main-Container .row-img{
+        float: right;
+        width: 50%;
+        background-color: black;
+        height: 550px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+        background-image: url('./logo.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .Main-Container .form-container{
+        width: 90%;
+        margin: auto;
+        height: 450px;        
+        margin-top:60px;
+        padding-top: 20px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 992px)
+{
+    .Main-Container .row{
+        align-content: center;
+    }
+    .Main-Container #logo{
+        width: 45%;
+    }
+    .Main-Container{
+        margin-top: 80px;
+    }
+}
+
+
+
+

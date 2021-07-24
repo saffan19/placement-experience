@@ -1,0 +1,82 @@
+.apost{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: ivory;
+    margin-top: 2% ;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.7); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.7);
+}
+
+.apostWrapper{
+    padding: 10px;
+}
+
+.apostTop
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apostTopLeft{
+    display:flex;
+    align-items: center;
+}
+
+.apostProfileImage
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 40;
+}
+
+.apostUsername{
+    font-size: 17px;
+    font-weight: 800;
+    margin: 0 10px;
+}
+
+.apostDate
+{
+    font-size:12px;
+}
+
+.apostCenter{
+
+    margin: 20px 0;
+}
+
+.apostImage{
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.apostContent{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.apostBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apostBottomLeft{
+    display: flex;
+    align-items: center;
+}
+
+
+.apostLikeCounter{
+    font-size: 15px;
+}
+
+.apostCommentText{
+    cursor:pointer;
+    border-bottom: 1px dashed gray;
+}

@@ -1,0 +1,23 @@
+
+  
+  .home{
+    background-color: #fafafa;
+    height: 100vh;
+    margin-top: 60px;
+    margin-right: 25%;
+    margin-left: 20%;
+  }
+  
+.filter-row
+{
+  flex-direction: row;
+  display: flex;
+  cursor: pointer;
+}
+
+.filter{
+  margin-top:10px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+  

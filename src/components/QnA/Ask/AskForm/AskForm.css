@@ -1,0 +1,53 @@
+.questionForm-control{
+    width: 100%;
+    
+}
+.questionForm-control input{
+    width: 70%;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.questionForm-control textarea{
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    width: 70%;
+}
+.questionForm .qbtn{
+    display: block;
+    color: white;
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.questionForm #form-submit{
+    margin-top: 30px;
+    background-color: black!important;
+    color:white;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+@media only screen and (max-width:768px){
+    /* .QnA{
+        margin-left: 0;
+        margin-right: 0;
+        width: 80%;
+        margin: auto;
+        margin-top: 65px;
+    } */
+    .questionForm-control input{
+        width: 90%;
+    }
+    .questionForm-control textarea{
+        width: 90%;
+    }
+}

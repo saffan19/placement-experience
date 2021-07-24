@@ -1,0 +1,176 @@
+/*body{
+    height: 100%;
+    width: 100%;
+}
+.Main-Container{
+    vertical-align: middle;
+    
+}
+*/
+
+.Main-Container-sp h4{
+    text-align: center;
+    margin-bottom:7px;
+}
+.Main-Container-sp hr{
+    width: 50%;
+    margin-bottom: 15px;
+    margin: auto;
+}
+/*
+.row{
+    width: 60%;
+    margin: auto;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;    
+}
+*/
+.Main-Container-sp .cntr{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;   
+}
+/*
+.cntr-select{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}*/
+
+.Main-Container-sp select{
+    border-radius: 5px;
+    border-width: 2px;
+    width:60%;
+    border-color: teal;
+}
+.Main-Container-sp select:focus{
+    border-color: orange;
+    outline: none;
+}
+.Main-Container-sp input{
+    border-radius: 5px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width:0 ;
+    border-color:teal;
+    border-bottom-width: 2px;
+    width: 100%;
+    height: 35px;
+}
+
+.Main-Container-sp input:focus {
+    border-radius: 5px;
+    border-top-width: 0!important;
+    border-left-width: 0;
+    border-right-width:0 ;
+    border-color: orange;
+    outline: none;
+}
+.Main-Container-sp span{
+    color:black;
+    font-size: 0.9em;
+}
+.Main-Container-sp span:hover{
+cursor: pointer;
+color: orange;
+}
+.Main-Container-sp button{
+    border-radius: 5px!important;
+    border-width: 0;
+    height: 35px!important;
+    width: 100%!important;
+}
+
+.Main-Container-sp #login{
+color:white;
+background-color: black;
+}
+.Main-Container-sp #signup{
+color: white;
+background-color:teal;
+}
+.Main-Container-sp #login:focus{
+    background-color: orange;
+}
+.Main-Container-sp #signup:focus{
+    background-color: orange;
+}
+.Main-Container-sp a{
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px){
+    .Main-Container-sp #logo{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        display: none;
+    }
+
+    .Main-Container-sp{
+        width: 900px;
+        border-radius: 10px;
+        border-top: black;
+        margin: auto;
+        height: 500px;
+        justify-content: center;
+        flex-direction: column;    
+        box-shadow: 0 0 10px 1px rgb(0,0,0,0.5);
+        margin-top: 7%;
+    }
+    .Main-Container-sp .row-form{
+        float: left;
+        width: 50%;
+        background-color: white;
+        height: 500px;
+        border-top-left-radius:5px;
+        border-bottom-left-radius:5px;
+    }
+    .Main-Container-sp .row-img{
+        float: right;
+        width: 50%;
+        background-color: black;
+        height: 500px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+        background-image: url('./logo.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .Main-Container-sp .form-container{
+        width: 90%;
+        margin: auto;
+        height: 450px;        
+        margin-top:0px;
+        padding-top: 0px;
+    }
+
+}
+
+.error{
+    font-size: small;
+    color: crimson;
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    .Main-Container-sp .row{
+        align-content: center;
+    }
+    .Main-Container-sp #logo{
+        width: 45%;
+    }
+    .Main-Container-sp{
+        margin-top: 80px;
+    }
+}
+
+
+
+

@@ -1,0 +1,39 @@
+.ashareForm-control{
+    width: 100%;
+    padding-bottom:10px ;
+}
+.ashareForm-control input{
+    width: 70%;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.ashareForm-control textarea{
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    width: 70%;
+}
+
+.ashareForm #aform-submit{
+    margin-top: 30px;
+    background-color: black!important;
+    color:white;
+    margin-bottom: 20px!important;
+    margin: auto!important;
+    width: 100%;
+}
+@media only screen and (max-width:768px){
+    .ashareForm-control input{
+        width: 90%;
+    }
+    .ashareForm-control textarea{
+        width: 90%;
+    }
+}

@@ -1,0 +1,77 @@
+.eprofile{
+    width: 70%;
+    box-shadow: 0 0 15px 1px rgb(50,50,50,0.5)!important;
+    border-radius: 5px;
+    /*margin-top: 100%!important;*/
+    padding-top: 10px;
+    padding-left:2%!important;
+    padding-right:2%!important;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px!important;
+    padding-bottom:50px ;
+}
+.eprofile #description{
+    /* border-top: 0px;
+    border-right: 0px;
+    border-left: 0px; */
+    border-radius: 5px;
+}
+.eprofile h3{
+    text-align: center;
+}
+.eprofile h4{
+    text-align: center;
+}
+.eprofile .row{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    
+}
+.eprofile input{
+    text-align: left;
+    border-radius: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 200px;
+    
+}
+.eprofile textarea{
+    width: 500px;
+    height: 70px;
+}
+
+
+
+.eprofile button{
+    float: right;
+    margin-right: 30px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    
+}
+  
+.eprofile ::-webkit-input-placeholder {
+    text-align: left!important;
+  }
+  
+.eprofile ::-moz-placeholder {
+    text-align: left;
+  }
+  .eprofile #save-button{
+      display: block;
+      margin: auto;
+      width: 200px;
+      color: white;
+      background-color: black;
+      font-weight: bold;
+      font-size: 1.2em;
+      text-align: center;
+  }
+  .eprofile #save-button:focus{
+      background-color: teal;
+  }

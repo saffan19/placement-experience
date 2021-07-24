@@ -1,0 +1,99 @@
+
+.profile{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.profile .container{
+    width: 70%!important;
+    padding-top: 20px;
+    box-shadow: 0 0 15px 1px rgb(50,50,50,0.5)!important;
+    border-radius: 5px;
+    /*margin-top: 100%!important;*/
+    padding-left:30px!important;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px!important;
+    padding-bottom: 30px;
+  
+ 
+}
+.profile h3{
+    text-align: center;
+    margin-top: 20px!important;
+}
+.profile h4{
+    
+    margin-top: 40px!important;
+}
+#edit-button{
+    position: relative;
+    float: right;
+
+}
+
+#profile-img{
+    width: 100px;
+    height: 100px;
+    
+    background-color: white;
+    margin-bottom:10px;
+}
+#name{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#branch{
+    font-weight: 500;
+}
+#year{
+    font-weight: 500;
+}
+#desc{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 500px;
+    font-weight: 500;
+}
+#work{
+    font-weight: 500;
+}
+.left{
+    margin-left: 0;
+}
+.post{
+    width: 80%;
+    background-color: black;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5pxs;
+}
+.profile button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    float: right;
+}
+.profile button:hover{
+    color: white;
+    background-color: rgb(95, 33, 33);
+}
+.deletebutton {
+    float: right;
+    cursor: pointer;
+}
+@media screen and (max-width: 992px)
+{
+    .profile .container{
+        width: 90%!important;
+    }
+    .profile h3{
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 30px!important;
+    }
+    #desc{
+        width: 95%!important;
+    }
+}

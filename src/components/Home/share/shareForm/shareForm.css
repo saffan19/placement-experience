@@ -1,0 +1,50 @@
+.shareForm-control{
+    width: 100%;
+    
+}
+.shareForm-control input{
+    width: 70%;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.shareForm-control-image{
+    display: flex;
+    align-items: center;
+}
+
+.shareForm-control textarea{
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    width: 70%;
+}
+
+.shareForm #form-submit{
+    margin-top: 30px;
+    background-color: black!important;
+    color:white;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:768px){
+    .home{
+        margin-left: 0;
+        margin-right: 0;
+        width: 80%;
+        margin: auto;
+        margin-top: 65px;
+    }
+    .shareForm-control input{
+        width: 90%;
+    }
+    .shareForm-control textarea{
+        width: 90%;
+    }
+}

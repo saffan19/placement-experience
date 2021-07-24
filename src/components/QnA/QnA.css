@@ -1,0 +1,23 @@
+.questions-page{
+    background-color: #fafafa;
+    height: 100vh;
+    margin-top: 80px;
+    margin-right: 20%;
+    margin-left: 20%
+}
+.questions-page .question-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 992px){
+    .questions-page{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .questions-page{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}

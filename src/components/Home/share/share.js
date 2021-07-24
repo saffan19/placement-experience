@@ -19,7 +19,7 @@ export default function Share() {
         <div className="share">
             <div className="shareWrapper">
             <div className="shareTop">
-                 <img className = "shareProfileImg" src="/assets/image1.jpg" alt=""/> 
+                 {/* <img className = "shareProfileImg" src="/assets/image1.jpg" alt=""/>  */}
                 {/* <input 
                 placeholder="Add Post"
                 type="text" className = "shareInput" /> */}

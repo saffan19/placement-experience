@@ -7,7 +7,16 @@
     -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.7); 
     box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.7);
 }
-
+.apost a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.apost a:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
 .apostWrapper{
     padding: 10px;
 }

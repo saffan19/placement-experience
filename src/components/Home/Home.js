@@ -99,14 +99,9 @@ console.log(Posts)
             )
             
             }
-            {/* <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-     */}
+
    
-            
+          <h6>--You have reached the end--</h6>            
         </div>
     </>  
     )

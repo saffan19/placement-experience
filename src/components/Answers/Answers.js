@@ -17,7 +17,7 @@ function Answers(){
     useEffect(()=>{//Will be called as soon as the page renders.
 /*********/   
         const getQuestion=async()=>{
-            const res=await fetch('http://localhost:3001/getSingleQuestion/'+question_id)
+            const res=await fetch('https://pe-exp-api.herokuapp.com/getSingleQuestion/'+question_id)
             const data = await res.json()
             //const [user]=data.result
             setQuestion(data[0])
@@ -37,7 +37,7 @@ function Answers(){
       },[])
         
       const fetchPostsa = async() =>{
-        const res = await fetch('http://localhost:3001/getAnswers/'+question_id)
+        const res = await fetch('https://pe-exp-api.herokuapp.com/getAnswers/'+question_id)
         const data = await res.json()
         return data
         }

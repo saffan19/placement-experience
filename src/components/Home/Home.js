@@ -43,7 +43,7 @@ function Home() {
         var branchName=localStorage.getItem('branch')
         if(branchName==='')branchName='ALL'
         console.log(branchName)
-        const res = await fetch('http://localhost:3001/getPosts/'+branchName)
+        const res = await fetch('https://pe-exp-api.herokuapp.com/getPosts/'+branchName)
     const data = await res.json()
     return data
         

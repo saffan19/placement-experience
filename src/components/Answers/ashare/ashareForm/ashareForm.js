@@ -7,7 +7,7 @@ export default function ShareForm({question_id}) {
 //
     // const { question_id } = useParams();
     const id=localStorage.getItem('userId');
-    const url="http://localhost:3001/answerSubmit";
+    const url="https://pe-exp-api.herokuapp.com/answerSubmit";
     const [data,setData]=useState({
       user_id:id,
       answer:"",

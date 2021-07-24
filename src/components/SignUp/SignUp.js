@@ -47,7 +47,7 @@ function SignUp(){
 
     async function authorize()
     {
-        await Axios.get('http://localhost:3001/checkEmail/'+email).then(async res =>{
+        await Axios.get('https://pe-exp-api.herokuapp.com/checkEmail/'+email).then(async res =>{
             
             if(res.data.msg==="exists")
             {
@@ -115,7 +115,7 @@ function SignUp(){
         if(vinput==vcode)
         {
             try{
-              await Axios.post('http://localhost:3001/signup',{
+              await Axios.post('https://pe-exp-api.herokuapp.com/signup',{
                 email:email,
                 name:name,
                 password:password,

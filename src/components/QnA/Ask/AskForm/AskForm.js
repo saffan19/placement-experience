@@ -5,7 +5,7 @@ import {useState,useEffect} from 'react';
 export default function AskForm() {
 //
     const id=localStorage.getItem('userId');
-    const url="http://localhost:3001/ask-submit";
+    const url="https://pe-exp-api.herokuapp.com/ask-submit";
     const [data,setData]=useState({
       user_id:id,
       question:""

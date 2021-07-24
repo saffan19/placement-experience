@@ -9,7 +9,7 @@ export default function ShareForm() {
     const history = useHistory();
     const [imageSelected,setImageSelected]=useState(null)
     const [imgUrl,setImgUrl]=useState('')
-    const url="http://localhost:3001/uploadPost";
+    const url="https://pe-exp-api.herokuapp.com/uploadPost";
     const [data,setData]=useState({
       user_id:localStorage.getItem('userId'),
       company:"",

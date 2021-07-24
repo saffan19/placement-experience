@@ -25,7 +25,7 @@ function QnA(){
          console.log(Questions)
       },[])
       const fetchQuestions = async() =>{
-        const res = await fetch('http://localhost:3001/get-questions')
+        const res = await fetch('https://pe-exp-api.herokuapp.com/get-questions')
         const data = await res.json()
         return data
       }

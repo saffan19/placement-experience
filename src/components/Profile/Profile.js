@@ -26,7 +26,7 @@ function Profile() {
         getPosts();
         ///
         const getProfile=async()=>{
-            const res=await fetch('http://localhost:3001/profile/'+id)
+            const res=await fetch('https://pe-exp-api.herokuapp.com/profile/'+id)
             const data = await res.json()
             //const [user]=data.result
             setProfile(data[0])
@@ -37,7 +37,7 @@ function Profile() {
     
    
     const fetchPosts = async () => {
-        const res = await fetch('http://localhost:3001/getUserPosts/'+id)
+        const res = await fetch('https://pe-exp-api.herokuapp.com/getUserPosts/'+id)
         const data = await res.json()
         return data
     }
@@ -49,7 +49,7 @@ function Profile() {
         console.log(post.post_id)
         const check=window.confirm("Are you sure you want to delete the post?");
 
-        const url='http://localhost:3001/delete-post/'+post.post_id;
+        const url='https://pe-exp-api.herokuapp.com/delete-post/'+post.post_id;
         console.log(url);
         if(check)
         {

@@ -27,7 +27,7 @@ function Login(){
         console.log("request")
         
         try{
-            Axios.post('http://localhost:3001/login',{
+            Axios.post('https://pe-exp-api.herokuapp.com/login',{
             email:email,
             password:password
         }).then(async res=> {

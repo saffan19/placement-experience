@@ -18,13 +18,13 @@ function EditProfile()
     const [profileData,setProfile]=useState([]);
     useEffect(() => {
         const getProfile=async()=>{
-            const res=await fetch('http://localhost:3001/profile/'+id)
+            const res=await fetch('https://pe-exp-api.herokuapp.com/profile/'+id)
             const data = await res.json()
             setProfile(data[0])
         }
         getProfile();
     },[])
-    const url="http://localhost:3001/profile-edit/"+id;
+    const url="https://pe-exp-api.herokuapp.com/profile-edit/"+id;
 
 
     function handle(e){

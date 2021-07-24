@@ -24,7 +24,7 @@ export default function Post({id,name,date,image,text,company,user_id}) {
    const fetchReactions = async ()=>
    {
        
-    await Axios.get("http://localhost:3001/getReactions/"+id).then((response)=>{
+    await Axios.get("https://pe-exp-api.herokuapp.com/getReactions/"+id).then((response)=>{
     var i=0    
         console.log(response.data.reactions)
         if(response.data.msg==="successful")
@@ -64,7 +64,7 @@ export default function Post({id,name,date,image,text,company,user_id}) {
        console.log(formdata)*/
        if(!liked)
        {
-        Axios.post("http://localhost:3001/addLike",{
+        Axios.post("https://pe-exp-api.herokuapp.com/addLike",{
             user_id:localStorage.getItem('userId'),
             post_id:id
         }).then((response)=>
@@ -84,7 +84,7 @@ export default function Post({id,name,date,image,text,company,user_id}) {
     }
     else
     {   
-    Axios.post("http://localhost:3001/removeLike",{
+    Axios.post("https://pe-exp-api.herokuapp.com/removeLike",{
         user_id:localStorage.getItem('userId'),
         post_id:id
     }).then((response)=>

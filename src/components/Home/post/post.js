@@ -7,6 +7,12 @@ import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
 import {useState,useEffect} from 'react';
 import Axios from 'axios';
 export default function Post({id,name,date,image,text,company,user_id}) {
+    //for toggle expand and close
+    const [expanded,setExpanded] = useState(false);
+    const toggleExpanded = ()=>
+    {
+      setExpanded(!expanded)
+    }
    
     const [liked,setLiked] = useState(false)
     const [reactions,setReactions] = useState([])
@@ -126,10 +132,17 @@ export default function Post({id,name,date,image,text,company,user_id}) {
             <div className="postCenter">
                 <img src={image} 
                 alt="" className="postImage"/>
-                
                 <div className="postContent">
-                   {text}
+                    {text.slice(0,300)}
+                {  expanded?
+                    
+                        <>{text.slice(300,)}</>
+                     
+                     :
+                     <></>
+                }
                 </div>
+
             
             
             
@@ -141,9 +154,13 @@ export default function Post({id,name,date,image,text,company,user_id}) {
             {/* <ChatBubbleIcon className="postComment"/> */}
             <span className="postLikeCounter">{likeCounter}</span>
             </div>
-            {/* <div className="postBottomRight">
-                <span className="postCommentText">9 comments</span>
-            </div> */}
+            <div className="postBottomRight">
+                {/* <span className="postCommentText">9 comments</span> */}
+                {
+                !expanded?<span onClick={()=>{toggleExpanded()}}>Read more</span>
+                : <span onClick={()=>{toggleExpanded()}} >Read less</span>
+                }
+            </div>
 
 
             </div>

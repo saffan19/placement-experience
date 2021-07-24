@@ -11,14 +11,16 @@
     margin-bottom: 40px!important;
     padding-bottom:50px ;
 }
-.eprofile .econt{
-    margin-left: 10px;
-}
 .eprofile #description{
     /* border-top: 0px;
     border-right: 0px;
     border-left: 0px; */
     border-radius: 5px;
+}
+.eprofile .econt{
+    margin-left: 20px;
+    margin-right: 20px;
+    /* padding-left: 20px; */
 }
 .eprofile h3{
     text-align: center;
@@ -78,8 +80,9 @@
   .eprofile #save-button:focus{
       background-color: teal;
   }
-  @media only screen and (max-width: 500px){
+  @media screen and (max-width: 550px)
+  {
     .eprofile{
-        width: 96%;
+        width: 95%;
     }
-}
+  }
